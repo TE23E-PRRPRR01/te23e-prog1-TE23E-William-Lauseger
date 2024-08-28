@@ -1,0 +1,13 @@
+﻿Console.Clear();
+Console.InputEncoding = System.Text.Encoding.Unicode;
+Console.OutputEncoding = System.Text.Encoding.Unicode;
+Console.WriteLine("Välkommen till vår lucktext");
+Console.WriteLine("Skriv ditt namn tack! ");
+string namn = Console.ReadLine();
+Console.WriteLine("Välj ett adjektiv! ");
+string adjektiv = Console.ReadLine();
+Console.WriteLine("Välj ett fotbollslag! ");
+string fotbollslag = Console.ReadLine();
+Console.WriteLine("Välj ett tal mellan 0 och 100! ");
+string tal = Console.ReadLine();
+Console.WriteLine("Det var en gång en " + adjektiv + " " + namn + " " + "som spelade i" + " " + fotbollslag + " " + "och han gjorde" + " " + tal + " " + "mål");
